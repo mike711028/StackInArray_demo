@@ -12,10 +12,12 @@ private:
 
 public:
 
+	/*    default class     */
 	Stack();
 
-	//Stack(int key);
+	Stack(int key);
 
+	/*   destructor      */
 	~Stack();
 
 	void Push(int key);

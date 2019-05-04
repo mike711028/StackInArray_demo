@@ -5,26 +5,17 @@
 int main()
 {
 
-	Stack S;
+	//  default without value  
+	Stack A;
+	// default with the first value
+	Stack S(1);
 
-	S.Pop();
+	S.PrintArray();
 
 	for (int i = 0; i < 11; i++)
 	{
 		S.Push(i);
 	}
-
-	S.PrintArray();
-
-	std::cout << "the top is " << S.Top() << std::endl;
-
-	S.Push(100);
-
-	S.PrintArray();
-
-	S.Pop();
-
-	S.PrintArray();
 
 
 	
